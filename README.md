@@ -1,5 +1,4 @@
 <div align="center">
-  <img src="public/placeholder-logo.svg" alt="NextPatterns Logo" width="150">
   <h1>NextPatterns</h1>
   <p>
     A curated collection of Next.js architectural patterns and best practices to build robust, scalable, and maintainable applications.

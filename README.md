@@ -5,9 +5,13 @@
     A curated collection of Next.js architectural patterns and best practices to build robust, scalable, and maintainable applications.
   </p>
   <p>
+    <a href="https://next-patterns-nine.vercel.app/"><img src="https://img.shields.io/badge/demo-live-brightgreen" alt="Live Demo"></a>
     <a href="https://github.com/your-username/NextPatterns/actions"><img src="https://img.shields.io/github/actions/workflow/status/your-username/NextPatterns/ci.yml?branch=main" alt="Build Status"></a>
     <a href="https://github.com/your-username/NextPatterns/blob/main/LICENSE"><img src="https://img.shields.io/github/license/your-username/NextPatterns" alt="License"></a>
     <a href="#contributors"><img src="https://img.shields.io/github/contributors/your-username/NextPatterns" alt="Contributors"></a>
+  </p>
+  <p>
+    <strong>🚀 <a href="https://next-patterns-nine.vercel.app/">View Live Demo</a></strong>
   </p>
 </div>
 
@@ -29,6 +33,8 @@
 ### Introduction
 
 NextPatterns is an open-source project dedicated to providing a comprehensive collection of architectural patterns and best practices for Next.js development. Our goal is to help developers build high-quality, scalable, and maintainable applications by offering a curated set of examples and guidelines.
+
+**🌐 [Try it now](https://next-patterns-nine.vercel.app/)** - Experience the platform without installation!
 
 This project is for you if you are:
 
@@ -134,6 +140,8 @@ If you have any questions or suggestions, feel free to reach out to us at [brand
 ### Introducción
 
 NextPatterns es un proyecto de código abierto dedicado a proporcionar una colección completa de patrones de arquitectura y mejores prácticas para el desarrollo con Next.js. Nuestro objetivo es ayudar a los desarrolladores a construir aplicaciones de alta calidad, escalables y mantenibles, ofreciendo un conjunto curado de ejemplos y guías.
+
+**🌐 [Pruébalo ahora](https://next-patterns-nine.vercel.app/)** - ¡Experimenta la plataforma sin instalación!
 
 Este proyecto es para ti si eres:
 

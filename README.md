@@ -65,10 +65,36 @@ This project is for you if you are:
     ```bash
     pnpm install
     ```
-4.  Run the development server:
+4.  Set up environment variables:
+    ```bash
+    cp .env.example .env.local
+    ```
+    Then edit `.env.local` with your Supabase credentials. Get them from your [Supabase Dashboard](https://app.supabase.com).
+
+5.  Run the development server:
     ```bash
     pnpm dev
     ```
+
+#### Environment Variables
+
+This project requires the following environment variables:
+
+*   `NEXT_PUBLIC_SUPABASE_URL` - Your Supabase project URL
+*   `NEXT_PUBLIC_SUPABASE_ANON_KEY` - Your Supabase anonymous key
+*   `SUPABASE_SERVICE_ROLE_KEY` - Your Supabase service role key (server-side only)
+*   `POSTGRES_URL` - PostgreSQL connection string
+
+See `.env.example` for the complete list of required variables.
+
+#### Deployment to Vercel
+
+1.  Push your code to GitHub
+2.  Import your repository in [Vercel](https://vercel.com)
+3.  Add all environment variables from `.env.example` in Vercel's dashboard:
+    *   Go to **Settings > Environment Variables**
+    *   Add each variable with its corresponding value
+4.  Deploy!
 
 ### Usage
 
@@ -144,10 +170,36 @@ Este proyecto es para ti si eres:
     ```bash
     pnpm install
     ```
-4.  Ejecuta el servidor de desarrollo:
+4.  Configura las variables de entorno:
+    ```bash
+    cp .env.example .env.local
+    ```
+    Luego edita `.env.local` con tus credenciales de Supabase. Obtenlas desde tu [Panel de Supabase](https://app.supabase.com).
+
+5.  Ejecuta el servidor de desarrollo:
     ```bash
     pnpm dev
     ```
+
+#### Variables de Entorno
+
+Este proyecto requiere las siguientes variables de entorno:
+
+*   `NEXT_PUBLIC_SUPABASE_URL` - URL de tu proyecto de Supabase
+*   `NEXT_PUBLIC_SUPABASE_ANON_KEY` - Clave anónima de Supabase
+*   `SUPABASE_SERVICE_ROLE_KEY` - Clave de rol de servicio de Supabase (solo del lado del servidor)
+*   `POSTGRES_URL` - Cadena de conexión a PostgreSQL
+
+Consulta `.env.example` para la lista completa de variables requeridas.
+
+#### Despliegue en Vercel
+
+1.  Sube tu código a GitHub
+2.  Importa tu repositorio en [Vercel](https://vercel.com)
+3.  Agrega todas las variables de entorno de `.env.example` en el dashboard de Vercel:
+    *   Ve a **Settings > Environment Variables**
+    *   Agrega cada variable con su valor correspondiente
+4.  ¡Despliega!
 
 ### Uso
 

@@ -1,113 +1,170 @@
-# NextPatterns
+<div align="center">
+  <img src="public/placeholder-logo.svg" alt="NextPatterns Logo" width="150">
+  <h1>NextPatterns</h1>
+  <p>
+    A curated collection of Next.js architectural patterns and best practices to build robust, scalable, and maintainable applications.
+  </p>
+  <p>
+    <a href="https://github.com/your-username/NextPatterns/actions"><img src="https://img.shields.io/github/actions/workflow/status/your-username/NextPatterns/ci.yml?branch=main" alt="Build Status"></a>
+    <a href="https://github.com/your-username/NextPatterns/blob/main/LICENSE"><img src="https://img.shields.io/github/license/your-username/NextPatterns" alt="License"></a>
+    <a href="#contributors"><img src="https://img.shields.io/github/contributors/your-username/NextPatterns" alt="Contributors"></a>
+  </p>
+</div>
 
-NextPatterns is a collection of Next.js patterns and best practices.
+---
 
 ## English
 
-### Description
+### Table of Contents
 
-This project is a curated collection of architectural patterns and best practices for building robust and scalable applications with Next.js. It serves as a practical guide and a starting point for developers looking to implement clean and efficient code in their Next.js projects.
+*   [Introduction](#introduction)
+*   [Features](#features)
+*   [Getting Started](#getting-started)
+*   [Usage](#usage)
+*   [Contributing](#contributing)
+*   [Code of Conduct](#code-of-conduct)
+*   [License](#license)
+*   [Contact](#contact)
+
+### Introduction
+
+NextPatterns is an open-source project dedicated to providing a comprehensive collection of architectural patterns and best practices for Next.js development. Our goal is to help developers build high-quality, scalable, and maintainable applications by offering a curated set of examples and guidelines.
+
+This project is for you if you are:
+
+*   A developer new to Next.js looking for guidance on how to structure your application.
+*   An experienced developer who wants to explore different architectural patterns and best practices.
+*   A team that wants to establish a consistent coding style and architecture across your projects.
 
 ### Features
 
-*   **Pattern Collection:** A wide variety of patterns for different use cases.
-*   **Best Practices:** Code examples that follow industry best practices.
-*   **Scalable Architecture:** A solid foundation for building large-scale applications.
-*   **Bilingual Documentation:** All documentation is available in English and Spanish.
-
-### Technologies Used
-
-*   **Framework:** Next.js
-*   **Language:** TypeScript
-*   **Styling:** Tailwind CSS
-*   **UI Components:** Radix UI, shadcn/ui
-*   **Authentication:** Supabase
-*   **Linting:** ESLint
-*   **Package Manager:** pnpm
-
-### Project Structure
-
-```
-/
-├── app/                  # Main application folder
-│   ├── api/              # API routes
-│   ├── auth/             # Authentication pages
-│   ├── docs/             # Documentation pages
-│   ├── patterns/         # Pattern pages
-│   ├── playground/       # Playground page
-│   └── profile/          # User profile pages
-├── components/           # Shared UI components
-│   ├── ai-assistant/     # AI assistant components
-│   ├── home/             # Home page components
-│   ├── patterns/         # Pattern related components
-│   ├── playground/       # Playground components
-│   ├── profile/          # Profile related components
-│   └── ui/               # Generic UI components
-├── hooks/                # Custom React hooks
-├── lib/                  # Shared libraries and utilities
-│   └── supabase/         # Supabase client and server setup
-├── prisma/               # Prisma schema for database
-├── public/               # Static assets
-└── styles/               # Global styles
-```
+*   **Comprehensive Pattern Library:** A wide range of patterns covering everything from project structure to state management and data fetching.
+*   **Ready-to-Use Components:** A library of reusable UI components built with Radix UI and shadcn/ui.
+*   **Interactive Playground:** A built-in playground to experiment with the patterns and components in real-time.
+*   **AI-Powered Assistant:** An AI assistant to help you with code analysis and suggestions.
+*   **Bilingual Documentation:** All documentation is available in English and Spanish to cater to a global community.
 
 ### Getting Started
 
-1.  Clone the repository: `git clone https://github.com/your-username/NextPatterns.git`
-2.  Install dependencies: `pnpm install`
-3.  Run the development server: `pnpm dev`
+#### Prerequisites
+
+*   Node.js (v18 or higher)
+*   pnpm
+
+#### Installation
+
+1.  Clone the repository:
+    ```bash
+    git clone https://github.com/your-username/NextPatterns.git
+    ```
+2.  Navigate to the project directory:
+    ```bash
+    cd NextPatterns
+    ```
+3.  Install the dependencies:
+    ```bash
+    pnpm install
+    ```
+4.  Run the development server:
+    ```bash
+    pnpm dev
+    ```
+
+### Usage
+
+The patterns and components in this project are designed to be easily adaptable to your own projects. You can browse the `app/patterns` directory to explore the different architectural patterns and the `components/ui` directory for reusable UI components.
+
+### Contributing
+
+We welcome contributions from the community! If you would like to contribute to the project, please read our [Contributing Guidelines](CONTRIBUTING.md).
+
+### Code of Conduct
+
+To ensure a welcoming and inclusive community, we have a [Code of Conduct](CODE_OF_CONDUCT.md) that all contributors are expected to follow.
+
+### License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
+
+### Contact
+
+If you have any questions or suggestions, feel free to reach out to us at [brandonvalencia9@gmail.com](mailto:brandonvalencia9@gmail.com).
+
+---
 
 ## Español
 
-### Descripción
+### Tabla de Contenidos
 
-Este proyecto es una colección curada de patrones de arquitectura y mejores prácticas para construir aplicaciones robustas y escalables con Next.js. Sirve como una guía práctica y un punto de partida para los desarrolladores que buscan implementar un código limpio y eficiente en sus proyectos de Next.js.
+*   [Introducción](#introducción)
+*   [Características](#características)
+*   [Empezando](#empezando)
+*   [Uso](#uso)
+*   [Contribuciones](#contribuciones)
+*   [Código de Conducta](#código-de-conducta)
+*   [Licencia](#licencia)
+*   [Contacto](#contacto)
+
+### Introducción
+
+NextPatterns es un proyecto de código abierto dedicado a proporcionar una colección completa de patrones de arquitectura y mejores prácticas para el desarrollo con Next.js. Nuestro objetivo es ayudar a los desarrolladores a construir aplicaciones de alta calidad, escalables y mantenibles, ofreciendo un conjunto curado de ejemplos y guías.
+
+Este proyecto es para ti si eres:
+
+*   Un desarrollador nuevo en Next.js que busca orientación sobre cómo estructurar su aplicación.
+*   Un desarrollador experimentado que quiere explorar diferentes patrones de arquitectura y mejores prácticas.
+*   Un equipo que quiere establecer un estilo de codificación y una arquitectura consistentes en sus proyectos.
 
 ### Características
 
-*   **Colección de Patrones:** Una amplia variedad de patrones para diferentes casos de uso.
-*   **Mejores Prácticas:** Ejemplos de código que siguen las mejores prácticas de la industria.
-*   **Arquitectura Escalable:** Una base sólida para construir aplicaciones a gran escala.
-*   **Documentación Bilingüe:** Toda la documentación está disponible en inglés y español.
-
-### Tecnologías Utilizadas
-
-*   **Framework:** Next.js
-*   **Lenguaje:** TypeScript
-*   **Estilos:** Tailwind CSS
-*   **Componentes de UI:** Radix UI, shadcn/ui
-*   **Autenticación:** Supabase
-*   **Linting:** ESLint
-*   **Gestor de Paquetes:** pnpm
-
-### Estructura del Proyecto
-
-```
-/
-├── app/                  # Carpeta principal de la aplicación
-│   ├── api/              # Rutas de la API
-│   ├── auth/             # Páginas de autenticación
-│   ├── docs/             # Páginas de documentación
-│   ├── patterns/         # Páginas de patrones
-│   ├── playground/       # Página del playground
-│   └── profile/          # Páginas de perfil de usuario
-├── components/           # Componentes de UI compartidos
-│   ├── ai-assistant/     # Componentes del asistente de IA
-│   ├── home/             # Componentes de la página de inicio
-│   ├── patterns/         # Componentes relacionados con los patrones
-│   ├── playground/       # Componentes del playground
-│   ├── profile/          # Componentes relacionados con el perfil
-│   └── ui/               # Componentes de UI genéricos
-├── hooks/                # Hooks de React personalizados
-├── lib/                  # Librerías y utilidades compartidas
-│   └── supabase/         # Configuración de cliente y servidor de Supabase
-├── prisma/               # Esquema de Prisma para la base de datos
-├── public/               # Archivos estáticos
-└── styles/               # Estilos globales
-```
+*   **Librería de Patrones Completa:** Una amplia gama de patrones que cubren todo, desde la estructura del proyecto hasta la gestión del estado y la obtención de datos.
+*   **Componentes Listos para Usar:** Una librería de componentes de UI reutilizables construidos con Radix UI y shadcn/ui.
+*   **Playground Interactivo:** Un playground incorporado para experimentar con los patrones y componentes en tiempo real.
+*   **Asistente con IA:** Un asistente de IA para ayudarte con el análisis de código y sugerencias.
+*   **Documentación Bilingüe:** Toda la documentación está disponible en inglés y español para atender a una comunidad global.
 
 ### Empezando
 
-1.  Clona el repositorio: `git clone https://github.com/your-username/NextPatterns.git`
-2.  Instala las dependencias: `pnpm install`
-3.  Ejecuta el servidor de desarrollo: `pnpm dev`
+#### Prerrequisitos
+
+*   Node.js (v18 o superior)
+*   pnpm
+
+#### Instalación
+
+1.  Clona el repositorio:
+    ```bash
+    git clone https://github.com/your-username/NextPatterns.git
+    ```
+2.  Navega al directorio del proyecto:
+    ```bash
+    cd NextPatterns
+    ```
+3.  Instala las dependencias:
+    ```bash
+    pnpm install
+    ```
+4.  Ejecuta el servidor de desarrollo:
+    ```bash
+    pnpm dev
+    ```
+
+### Uso
+
+Los patrones y componentes de este proyecto están diseñados para ser fácilmente adaptables a tus propios proyectos. Puedes explorar el directorio `app/patterns` para explorar los diferentes patrones de arquitectura y el directorio `components/ui` para componentes de UI reutilizables.
+
+### Contribuciones
+
+¡Damos la bienvenida a las contribuciones de la comunidad! Si deseas contribuir al proyecto, por favor lee nuestras [Guías de Contribución](CONTRIBUTING.md).
+
+### Código de Conducta
+
+Para garantizar una comunidad acogedora e inclusiva, tenemos un [Código de Conducta](CODE_OF_CONDUCT.md) que se espera que todos los contribuyentes sigan.
+
+### Licencia
+
+Este proyecto está bajo la Licencia MIT. Consulta el archivo [LICENSE](LICENSE) para más detalles.
+
+### Contacto
+
+Si tienes alguna pregunta o sugerencia, no dudes en contactarnos en [brandon.valencia.calderon@gmail.com](mailto:brandon.valencia.calderon@gmail.com).

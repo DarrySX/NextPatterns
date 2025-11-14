@@ -2,6 +2,7 @@ import Link from 'next/link'
 import { Button } from '@/components/ui/button'
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card'
 import { ArrowLeft, Github, MessageSquare, Users } from 'lucide-react'
+import { CommunityActionButton } from '@/components/docs/community-action-buttons'
 
 export const metadata = {
   title: 'Community - NextPatterns',
@@ -46,7 +47,7 @@ export default function CommunityPage() {
                 'Have fun and enjoy the community spirit!',
               ].map((rule, idx) => (
                 <div key={idx} className="flex gap-3 items-start">
-                  <div className="w-2 h-2 rounded-full bg-primary mt-2 flex-shrink-0" />
+                  <div className="w-2 h-2 rounded-full bg-primary mt-2 shrink-0" />
                   <span>{rule}</span>
                 </div>
               ))}
@@ -73,11 +74,9 @@ export default function CommunityPage() {
                   <p className="mb-4">
                     Post questions and engage in discussions with the community. Topics include pattern advice, best practices, and general questions.
                   </p>
-                  <Button asChild variant="outline" size="sm">
-                    <a href="#" onClick={(e) => {e.preventDefault(); alert('Discussion forum coming soon!')}}>
-                      Visit Forum
-                    </a>
-                  </Button>
+                  <CommunityActionButton label="Discussion forum">
+                    Visit Forum
+                  </CommunityActionButton>
                 </CardContent>
               </Card>
 
@@ -92,11 +91,9 @@ export default function CommunityPage() {
                   <p className="mb-4">
                     Join our Discord or Slack community for real-time chat and quick questions. Great for connecting with other developers!
                   </p>
-                  <Button asChild variant="outline" size="sm">
-                    <a href="#" onClick={(e) => {e.preventDefault(); alert('Community chat coming soon!')}}>
-                      Join Chat
-                    </a>
-                  </Button>
+                  <CommunityActionButton label="Community chat">
+                    Join Chat
+                  </CommunityActionButton>
                 </CardContent>
               </Card>
 
@@ -111,11 +108,9 @@ export default function CommunityPage() {
                   <p className="mb-4">
                     Report bugs or suggest features on GitHub. Our team monitors issues and prioritizes based on community feedback.
                   </p>
-                  <Button asChild variant="outline" size="sm">
-                    <a href="#" onClick={(e) => {e.preventDefault(); alert('GitHub repository coming soon!')}}>
-                      View Issues
-                    </a>
-                  </Button>
+                  <CommunityActionButton label="GitHub repository">
+                    View Issues
+                  </CommunityActionButton>
                 </CardContent>
               </Card>
             </div>
